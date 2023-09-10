@@ -8,4 +8,6 @@ public class BudgetSenseContext : DbContext
      : base(options)
     {
     }
+
+    public DbSet<Department>? MyProperty { get; set; }
 }
